@@ -1,0 +1,70 @@
+#header{
+    background-image: url('./image/vladimir-anikeev-IM8ZyYaSW6g-unsplash.jpg');
+    background-position:center;
+    background-size: cover;
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    height: 200px;
+    width: 250px;
+}
+.contact{
+    background-image: url('./image/vladimir-anikeev-IM8ZyYaSW6g-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.contact h2{
+    padding: 10px;
+    color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h3,.p{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact a{
+    background-color:black;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+
+}
+.footer{
+    background-color: url('./image/vladimir-anikeev-IM8ZyYaSW6g-unsplash.jpg');
+    list-style: none;
+}
+.footer h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+}
+.socialmedia a{
+    padding: 20px;
+}
+.socialmedia a:hover{
+    color: black;
+    transition-delay: 0.5sec;
+}
